@@ -1,8 +1,25 @@
+h2 {
+  text-align: center;
+  padding-top: 30px;
+}
+
 .item {
   display: block;
   margin: auto;
 }
 
 .ui.inverted.menu {
-  background-color: darkorange;
+  background-color: #ff632e;
+}
+
+.ui.button {
+  display: block;
+  margin: auto;
+  background-color: #ff632e;
+  color: white;
+}
+
+.ui.button:hover {
+  background-color: #b32d00;
+  color: white;
 }
