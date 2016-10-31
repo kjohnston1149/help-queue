@@ -1,0 +1,14 @@
+{ "submissions": [{
+  "name": "Ursula and Frankenstein",
+  "location": "5E",
+  "description": "Our graveyard component is not displaying."
+}, {
+  "name": "Patti Mayonnaise and Doug Funnie",
+  "location": "5D",
+  "description": "Killer Tofu model is not syncing with firebase."
+}, {
+  "name": "Count Dracula and Maleficent",
+  "location": "4G",
+  "description": "Evil plan not working out."
+  }]
+}

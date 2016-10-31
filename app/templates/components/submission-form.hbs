@@ -1,0 +1,19 @@
+<div class="submission-form">
+  <div>
+    <form class="ui form">
+      <div class="field">
+        <label for="name">Enter your name</label>
+        {{input value=name id="name"}}
+      </div>
+      <div class="field">
+        <label for="location">Enter your location</label>
+        {{input value=location id="location"}}
+      </div>
+      <div class="field">
+        <label for="description">Enter your description</label>
+        {{input value=description id="description"}}
+      </div>
+      <button class="ui button" {{action 'saveSubmission'}}>Ask!</button>
+    </form>
+  </div>
+</div>

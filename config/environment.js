@@ -17,6 +17,14 @@ module.exports = function(environment) {
       }
     },
 
+    firebase: {
+      apiKey: 'AIzaSyC7u8EbSyejO0yG6Gg_MBo8LFSHQO7tD3k',
+      authDomain: 'help-queue-cb2cd.firebaseapp.com',
+      databaseURL: 'https://help-queue-cb2cd.firebaseio.com',
+      storageBucket: ''
+    },
+
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
