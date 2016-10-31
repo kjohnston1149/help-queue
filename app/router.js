@@ -11,6 +11,8 @@ Router.map(function() {
   this.route('question3');
   this.route('submission');
   this.route('otw');
+  this.route('teacher');
+  this.route('submission-display', {path: '/submission-display/:submission_id'});
 });
 
 export default Router;
