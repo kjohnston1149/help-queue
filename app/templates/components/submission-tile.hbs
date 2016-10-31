@@ -1,3 +1,4 @@
 <li>
-  {{#link-to 'submission-display'}}{{submission.name}} at {{submission.location}}{{/link-to}}
+  {{#link-to 'submission-display' submission.id}}{{submission.name}} at {{submission.location}}{{/link-to}}
+  {{moment-from-now submission.opened interval=1000}}
 </li>
