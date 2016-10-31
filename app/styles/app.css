@@ -3,9 +3,14 @@ h2 {
   padding-top: 30px;
 }
 
+li {
+  list-style-type: none;
+}
+
 .item {
   display: block;
   margin: auto;
+  font-family: 'Nixie One', cursive;
 }
 
 .ui.inverted.menu {
@@ -22,4 +27,8 @@ h2 {
 .ui.button:hover {
   background-color: #b32d00;
   color: white;
+}
+
+.submission-tile {
+  background-color: white;
 }

@@ -1,5 +1,7 @@
 <ul>
   {{#each model as |submission|}}
-    {{submission-tile submission=submission}}
+    <div class="well submission-tile">
+      {{submission-tile submission=submission}}
+    </div>
   {{/each}}
 </ul>
