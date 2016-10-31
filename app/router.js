@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('question2');
   this.route('question3');
   this.route('submission');
+  this.route('otw');
 });
 
 export default Router;
